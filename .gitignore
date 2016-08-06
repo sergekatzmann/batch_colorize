@@ -3,3 +3,4 @@
 /images/in/*
 /images/out/*
 !/images/out/.gitkeep
+colorization_release_v0.caffemodel
