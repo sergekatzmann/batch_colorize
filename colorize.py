@@ -64,6 +64,9 @@ def colorizeDir(inputDir, outputDir):
     imagefiles = [f for f in listdir(inputDir) if isfile(join(inputDir, f))]
 
     for image in imagefiles:
+        if image == '.gitkeep':
+            continue
+
         (imageName, imageExt) = os.path.splitext(os.path.basename(image))
 
         input = inputDir + image
