@@ -129,7 +129,7 @@ def main(argv):
         sys.exit(3)
 
     if(not os.access(outputDir, os.R_OK)):
-        printError('The intput directory "' + outputDir + '" is not readable')
+        printError('The input directory "' + outputDir + '" is not readable')
         sys.exit(4)
 
     if(not os.access(outputDir, os.W_OK)):
