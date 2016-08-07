@@ -41,7 +41,7 @@ To build the image perform the following command:
  To pull from docker repo use this command:
 
  ```
- TODO
+ sudo docker pull sergekatzmann/batch_colorize
  ```
 
  Image preparation
