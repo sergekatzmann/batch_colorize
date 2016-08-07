@@ -52,12 +52,12 @@ Image preparation
 Switch into the project folder and then go to images/in folder and place your grayscale images in this location.
 Thats it for this part.
 
-You can perform the copy by omthing similar to the following lines:
+You can perform the copy by something similar to the following lines:
 
-Replace [image location] with the source location of your images.
+Replace <image location> with the source location of your images.
 ```
 cd ~/batch_colorize/images/in
-cp [image location] .
+cp <image location> .
 ```
 
 Run the batch colorization
