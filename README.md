@@ -35,49 +35,49 @@ To prepare the docker image you can pull the image from the docker repository or
 
 To build the image perform the following command:
 
- ```
- cd ~/batch_colorize
- sudo bash build.sh
- ```
+```
+cd ~/batch_colorize
+sudo bash build.sh
+```
 
- To pull from docker repo use this command:
+To pull from docker repo use this command:
 
- ```
- sudo docker pull sergekatzmann/batch_colorize:latest
- ```
+```
+sudo docker pull sergekatzmann/batch_colorize:latest
+```
 
- Image preparation
- ------------
+Image preparation
+------------
 
- Switch into the project folder and then go to images/in folder and place you grayscale images in this location.
- Thats it for this part.
+Switch into the project folder and then go to images/in folder and place you grayscale images in this location.
+Thats it for this part.
 
- You can perform the copy by omthing similar to the following lines:
+You can perform the copy by omthing similar to the following lines:
 
- Replace [image location] with the source location of your images.
- ```
- cd ~/batch_colorize/images/in
- cp [image location] .
- ```
+Replace [image location] with the source location of your images.
+```
+cd ~/batch_colorize/images/in
+cp [image location] .
+```
 
- Run the batch colorization
- ------------
- Perform the folllwing command to colorize all the images from the images/in folder:
-
-
- ```
- sudo bash batch_colorize.sh
-
- ```
-
- The results
- ------------
- After the successful execution you will find the colorized images in the images/out folder.
+Run the batch colorization
+------------
+Perform the folllwing command to colorize all the images from the images/in folder:
 
 
- Thanks
- ------------
- Thanks to Richard Zhang, Phillip Isola and Alexei A. Efros for the great project making alot of people happy. At least my family is very happy to see the old photos in the new colorful version.
+```
+sudo bash batch_colorize.sh
+
+```
+
+The results
+------------
+After the successful execution you will find the colorized images in the images/out folder.
+
+
+Thanks
+------------
+Thanks to Richard Zhang, Phillip Isola and Alexei A. Efros for the great project making alot of people happy. At least my family is very happy to see the old photos in the new colorful version.
 
 
 
