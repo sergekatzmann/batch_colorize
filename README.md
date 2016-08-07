@@ -29,6 +29,8 @@ cd ~
 git clone -b master --single-branch https://github.com/sergekatzmann/batch_colorize.git
 ```
 
+_Optional_
+
 To prepare the docker image you can pull the image from the docker repository or build it yourself.
 
 To build the image perform the following command:
@@ -41,7 +43,7 @@ To build the image perform the following command:
  To pull from docker repo use this command:
 
  ```
- sudo docker pull sergekatzmann/batch_colorize
+ sudo docker pull sergekatzmann/batch_colorize:latest
  ```
 
  Image preparation
