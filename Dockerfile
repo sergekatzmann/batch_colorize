@@ -1,4 +1,5 @@
 FROM caffe:cpu
+MAINTAINER Serge Katzmann serge.katzmann@gmail.com
 
 WORKDIR /work
 
