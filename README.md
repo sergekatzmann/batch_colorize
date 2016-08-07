@@ -14,6 +14,7 @@ You can install Docker and configure it to start on boot on Centos 7 using folow
 ```
 sudo yum install docker -y
 sudo chkconfig docker on
+sudo service docker start
 ```
 
 To do it on other Linux flavours you have to use specific commands for the version you are running.
