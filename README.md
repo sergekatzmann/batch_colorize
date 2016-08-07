@@ -47,7 +47,7 @@ To build the image perform the following command:
  Image preparation
  ------------
 
- Switch into the project folder and the go to images/in folder and place you grayscale images in this location.
+ Switch into the project folder and then go to images/in folder and place you grayscale images in this location.
  Thats it for this part.
 
  You can perform the copy by omthing similar to the following lines:
