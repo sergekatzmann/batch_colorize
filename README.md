@@ -55,7 +55,7 @@ Thats it for this part.
 
 You can perform the copy by something similar to the following lines:
 
-Replace <image location> with the source location of your images.
+Replace \<image location\> with the source location of your images.
 ```
 cd ~/batch_colorize/images/in
 cp <image location> .
