@@ -63,7 +63,7 @@ cp <image location> .
 
 Run the batch colorization
 ------------
-Perform the folllwing command to colorize all the images from the images/in folder:
+Perform the following command to colorize all the images from the images/in folder:
 
 
 ```
